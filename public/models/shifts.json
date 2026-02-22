@@ -1,0 +1,166 @@
+[
+  {
+    "id": "e96b522f-68ce-4ada-991f-ec9eab4aabcf",
+    "date": "2026-02-20",
+    "startTime": "09:00",
+    "endTime": "17:00",
+    "role": "Cashier"
+  },
+  {
+    "id": "c2994647-9dae-4eaf-987f-b0104ea695c9",
+    "date": "2026-02-20",
+    "startTime": "10:00",
+    "endTime": "18:00",
+    "role": "Cook",
+    "assignedUserId": "2fefd321-cd25-487a-b422-c6446112f7b3"
+  },
+  {
+    "id": "4d59d5c7-0fc5-45ec-b5cc-301264579bce",
+    "date": "2026-02-21",
+    "startTime": "06:00",
+    "endTime": "14:00",
+    "role": "Server"
+  },
+  {
+    "id": "4cbbe9ef-edb7-45d2-8902-8e5a88fa6ce2",
+    "date": "2026-02-21",
+    "startTime": "14:00",
+    "endTime": "22:00",
+    "role": "Manager",
+    "assignedUserId": "3df6de3a-7b94-4832-ae05-e7661f018823"
+  },
+  {
+    "id": "113d4884-2022-46ce-b5e1-d8302a5750e6",
+    "date": "2026-02-22",
+    "startTime": "08:00",
+    "endTime": "16:00",
+    "role": "Cashier"
+  },
+  {
+    "id": "74c98783-c26f-479b-bb2c-f08ad8c02c5e",
+    "date": "2026-02-22",
+    "startTime": "15:00",
+    "endTime": "23:00",
+    "role": "Cook"
+  },
+  {
+    "id": "67add7cc-ed36-47a7-910e-2aa28be3393e",
+    "date": "2026-02-23",
+    "startTime": "07:00",
+    "endTime": "15:00",
+    "role": "Server",
+    "assignedUserId": "af7b803e-4357-4373-bae5-248ad615ca0b"
+  },
+  {
+    "id": "3d7184c7-fbd5-42e0-9110-079b2a2172ba",
+    "date": "2026-02-23",
+    "startTime": "10:00",
+    "endTime": "18:00",
+    "role": "Cashier"
+  },
+  {
+    "id": "d8a5f2b7-7a08-4612-b6e6-2a012fd9d192",
+    "date": "2026-02-24",
+    "startTime": "11:00",
+    "endTime": "19:00",
+    "role": "Manager"
+  },
+  {
+    "id": "bb7d6e04-9024-4b3e-8498-215c3c38e68a",
+    "date": "2026-02-24",
+    "startTime": "06:00",
+    "endTime": "12:00",
+    "role": "Cook",
+    "assignedUserId": "2fefd321-cd25-487a-b422-c6446112f7b3"
+  },
+  {
+    "id": "c2a45cd7-bdb1-4e03-9c13-b08672ca11a1",
+    "date": "2026-02-25",
+    "startTime": "12:00",
+    "endTime": "20:00",
+    "role": "Server"
+  },
+  {
+    "id": "55cb7e88-9795-461e-a8ee-96d71fba1e17",
+    "date": "2026-02-25",
+    "startTime": "15:00",
+    "endTime": "23:00",
+    "role": "Cashier",
+    "assignedUserId": "88513d42-fe76-4daf-88f1-50f76e3c6bb7"
+  },
+  {
+    "id": "c6f6aabe-9d00-44ad-8d9d-55e630be1741",
+    "date": "2026-02-26",
+    "startTime": "09:00",
+    "endTime": "17:00",
+    "role": "Cook"
+  },
+  {
+    "id": "fbbb0bdb-e7c4-4cd5-818a-285d92135880",
+    "date": "2026-02-26",
+    "startTime": "16:00",
+    "endTime": "23:59",
+    "role": "Manager",
+    "assignedUserId": "3df6de3a-7b94-4832-ae05-e7661f018823"
+  },
+  {
+    "id": "57e9f9bb-48d8-4c14-9f1f-10e823c5fd96",
+    "date": "2026-02-27",
+    "startTime": "07:00",
+    "endTime": "15:00",
+    "role": "Server"
+  },
+  {
+    "id": "1971fbdb-5342-4e1a-9dc3-7b47e88923f0",
+    "date": "2026-02-27",
+    "startTime": "11:00",
+    "endTime": "19:00",
+    "role": "Admin",
+    "assignedUserId": "9cbf953a-6122-40c3-add4-dbc4dd1d41bc"
+  },
+  {
+    "id": "bb523e25-29f0-40de-a3fc-33a1890c6f52",
+    "date": "2026-02-28",
+    "startTime": "06:00",
+    "endTime": "14:00",
+    "role": "Cashier"
+  },
+  {
+    "id": "60f9b934-d06a-44cf-a42d-9379c9c207e8",
+    "date": "2026-02-28",
+    "startTime": "14:00",
+    "endTime": "22:00",
+    "role": "Cook",
+    "assignedUserId": "25fec8b5-aaa7-4f59-87f8-85de28c5d9df"
+  },
+  {
+    "id": "769f8eb4-7ee4-4de0-a061-75ffe1cabd74",
+    "date": "2026-03-01",
+    "startTime": "08:00",
+    "endTime": "16:00",
+    "role": "Server"
+  },
+  {
+    "id": "b88646a1-4d7d-4f2f-b28e-b17cf1559272",
+    "date": "2026-03-01",
+    "startTime": "15:00",
+    "endTime": "23:59",
+    "role": "Manager",
+    "assignedUserId": "af3a3af4-dbc1-4582-a0aa-40447424d901"
+  },
+  {
+    "id": "1f015c52-6859-40e9-be61-440e5946dcef",
+    "date": "2026-03-02",
+    "startTime": "09:00",
+    "endTime": "17:00",
+    "role": "Cook"
+  },
+  {
+    "id": "9e964ddd-500a-4196-80e6-2d9dbb2383e3",
+    "date": "2026-03-02",
+    "startTime": "15:59",
+    "endTime": "23:59",
+    "role": "Cashier",
+    "assignedUserId": "19c0c674-8f77-43d5-83ff-955a755b83f1"
+  }
+]

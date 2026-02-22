@@ -1,0 +1,142 @@
+[
+  {
+    "id": "88513d42-fe76-4daf-88f1-50f76e3c6bb7",
+    "name": "Alice Johnson",
+    "role": "Cashier"
+  },
+  {
+    "id": "2fefd321-cd25-487a-b422-c6446112f7b3",
+    "name": "Bob Smith",
+    "role": "Cook"
+  },
+  {
+    "id": "3df6de3a-7b94-4832-ae05-e7661f018823",
+    "name": "Charlie Brown",
+    "role": "Manager"
+  },
+  {
+    "id": "9cbf953a-6122-40c3-add4-dbc4dd1d41bc",
+    "name": "Diana Prince",
+    "role": "Admin"
+  },
+  {
+    "id": "af7b803e-4357-4373-bae5-248ad615ca0b",
+    "name": "Evan Wright",
+    "role": "Server"
+  },
+  {
+    "id": "c8ef17c2-abf6-4957-a49f-17e7c0300226",
+    "name": "Fiona Gallagher",
+    "role": "Server"
+  },
+  {
+    "id": "25fec8b5-aaa7-4f59-87f8-85de28c5d9df",
+    "name": "George Miller",
+    "role": "Cook"
+  },
+  {
+    "id": "19c0c674-8f77-43d5-83ff-955a755b83f1",
+    "name": "Hannah Abbott",
+    "role": "Cashier"
+  },
+  {
+    "id": "af3a3af4-dbc1-4582-a0aa-40447424d901",
+    "name": "Ian Somerhalder",
+    "role": "Manager"
+  },
+  {
+    "id": "da4bfa8a-f634-4374-bf6e-957301d1b2ec",
+    "name": "Jane Doe",
+    "role": "Server"
+  },
+  {
+    "id": "b2d44a22-31b1-4dda-9711-a67f8d90b47a",
+    "name": "Kevin Hart",
+    "role": "Cook"
+  },
+  {
+    "id": "67a470fe-c309-4966-916e-14837328af4b",
+    "name": "Laura Palmer",
+    "role": "Admin"
+  },
+  {
+    "id": "c0b709f6-399a-49a6-bed7-be86333dd158",
+    "name": "Michael Scott",
+    "role": "Manager"
+  },
+  {
+    "id": "0df1fbfb-5e03-4dcf-9a5c-0335847d4f7e",
+    "name": "Nina Dobrev",
+    "role": "Server"
+  },
+  {
+    "id": "6635a9b6-43a6-4a77-b8de-e4364bbdab45",
+    "name": "Oscar Isaac",
+    "role": "Cook"
+  },
+  {
+    "id": "ad102628-8e43-447e-930a-2943196b0377",
+    "name": "Pam Beesly",
+    "role": "Cashier"
+  },
+  {
+    "id": "0d3171d4-c3d5-425a-b768-cc46df12f33f",
+    "name": "Quentin Tarantino",
+    "role": "Manager"
+  },
+  {
+    "id": "33eafed9-77d8-49b6-a1fb-c4a972dfcfe2",
+    "name": "Rachel Green",
+    "role": "Server"
+  },
+  {
+    "id": "945f1c51-65fd-48f6-b73b-6cd24c7c6cfd",
+    "name": "Steve Carell",
+    "role": "Manager"
+  },
+  {
+    "id": "40e0e541-fc92-41e1-9ea1-30b26a278275",
+    "name": "Tina Fey",
+    "role": "Admin"
+  },
+  {
+    "id": "6803455f-f8c3-431d-bbae-4e96d5653c3c",
+    "name": "Uma Thurman",
+    "role": "Cashier"
+  },
+  {
+    "id": "64022fd6-da5b-4f66-b37b-6c5b543a97f1",
+    "name": "Victor Hugo",
+    "role": "Cook"
+  },
+  {
+    "id": "c63ea889-2381-41a2-956b-56eb1bea15ff",
+    "name": "Wanda Maximoff",
+    "role": "Server"
+  },
+  {
+    "id": "7fee1bb9-27a9-495d-8d2f-5b4e634d215c",
+    "name": "Xander Cage",
+    "role": "Server"
+  },
+  {
+    "id": "869fb8ed-c860-4259-adb7-2ba67da70753",
+    "name": "Yvonne Strahovski",
+    "role": "Cashier"
+  },
+  {
+    "id": "e7bb840d-bb07-4b96-80c5-0164d0dd0df5",
+    "name": "Zack Snyder",
+    "role": "Manager"
+  },
+  {
+    "id": "cdf87e4e-af71-43ae-83b9-14b0aab98d45",
+    "name": "Amy Santiago",
+    "role": "Admin"
+  },
+  {
+    "id": "13e98768-e9eb-4014-aa66-3f39e7e3b472",
+    "name": "Jake Peralta",
+    "role": "Server"
+  }
+]
