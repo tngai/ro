@@ -35,20 +35,7 @@ export const useAddShiftFormValidation = () => {
         return selectedDateTime > now;
       }),
     endTime: Yup.string()
-      .required('End time is required')
-      .test('is-valid-end-time', 'End time must be after start time and not in the past', function (value) {
-        const { startTime, date } = this.parent;
-
-        if (!value || !date) {
-          return true;
-        }
-
-        if (startTime && value <= startTime) {
-          return this.createError({ message: 'End time must be after start time' });
-        }
-
-        return true;
-      }),
+      .required('End time is required'),
     role: Yup.string().required('Role is required'),
     assignedUserId: Yup.string()
       .optional()
