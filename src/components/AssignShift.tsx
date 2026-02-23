@@ -5,12 +5,13 @@ import type { ShiftType } from '../types/shifts';
 import ShiftForm from './ShiftForm';
 
 export default function AssignShift({ shift, onSubmit }: { shift: ShiftType, onSubmit?: () => void }) {
-  const { assignShiftById, isUserIdValid } = useData();
+  const { assignShiftByIdName, isUserIdValid, isUserQualifiedForRole, getUserById } = useData();
 
   const validationSchema = Yup.object({
     assignedUserId: Yup.string()
       .required('User ID is required to assign.')
-      .test('is-valid-user', 'User ID does not exist', (value) => !value || isUserIdValid(value)),
+      .test('is-valid-user', 'User ID does not exist', (value) => !value || isUserIdValid(value))
+      .test('is-valid-role', 'User is not qualified for this role', (value) => !value || isUserQualifiedForRole(value, shift.role)),
   });
 
   return (
@@ -26,7 +27,8 @@ export default function AssignShift({ shift, onSubmit }: { shift: ShiftType, onS
         }}
         validationSchema={validationSchema}
         onSubmit={(values) => {
-          assignShiftById(shift.id, values.assignedUserId);
+          const username = getUserById(values.assignedUserId)?.name ?? '';
+          assignShiftByIdName(shift.id, values.assignedUserId, username);
           onSubmit?.();
         }}
       />

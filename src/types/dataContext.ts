@@ -6,8 +6,10 @@ export type DataContextType = {
   shifts: ShiftType[];
   addShift: (shift: Omit<ShiftType, 'id'>) => void;
   isUserIdValid: (userId: string) => boolean;
+  isUserQualifiedForRole: (userId: string, role: string) => boolean;
+  getUserById: (userId: string) => UserType | null;
   removeAssignmentById: (shiftId: string) => void;
-  assignShiftById: (shiftId: string, userId: string) => void;
+  assignShiftByIdName: (shiftId: string, userId: string, userName: string) => void;
   getShiftById: (shiftId: string) => ShiftType | null;
   filterShiftsByName: (name: string) => ShiftType[];
   filterShiftsByRole: (role: string) => ShiftType[];

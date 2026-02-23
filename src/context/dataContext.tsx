@@ -50,6 +50,15 @@ export const DataProvider = ({ children }: { children: ReactNode }) => {
     return users.some(user => user.id === userId);
   };
 
+  function isUserQualifiedForRole(userId: string, role: string) {
+    const user = users.find(user => user.id === userId);
+    if (!user) {
+      return false;
+    }
+
+    return user.role === role;
+  };
+
   function removeAssignmentById(shiftId: string) {
     setShifts(prev => prev.map(shift => {
       if (shift.id === shiftId) {
@@ -60,10 +69,10 @@ export const DataProvider = ({ children }: { children: ReactNode }) => {
     }));
   };
 
-  function assignShiftById(shiftId: string, userId: string) {
+  function assignShiftByIdName(shiftId: string, userId: string, userName: string) {
     setShifts(prev => prev.map(shift => {
       if (shift.id === shiftId) {
-        return { ...shift, assignedUserId: userId };
+        return { ...shift, assignedUserId: userId, assignedUserName: userName };
       }
       return shift;
     }));
@@ -72,6 +81,11 @@ export const DataProvider = ({ children }: { children: ReactNode }) => {
   function getShiftById(shiftId: string): ShiftType | null {
     const shift = shifts.find(s => s.id === shiftId);
     return shift ? { ...shift } : null;
+  };
+
+  function getUserById(userId: string): UserType | null {
+    const user = users.find(u => u.id === userId);
+    return user ? { ...user } : null;
   };
 
   function filterShiftsByName(query: string): ShiftType[] {
@@ -95,9 +109,11 @@ export const DataProvider = ({ children }: { children: ReactNode }) => {
         shifts,
         addShift,
         isUserIdValid,
+        isUserQualifiedForRole,
         removeAssignmentById,
-        assignShiftById,
+        assignShiftByIdName,
         getShiftById,
+        getUserById,
         filterShiftsByName,
         filterShiftsByRole,
         shiftSearchQuery,
